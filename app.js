@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("<h1>Welcome to ESC Training app updated</h1>");
+  res.send("<h1>Welcome to ESC Training Working Application</h1>");
 });
 
 app.get("/test", (req, res) => {
